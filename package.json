@@ -1,0 +1,11 @@
+{
+  "name": "cartforge-jenkins-project",
+  "version": "1.0.0",
+  "description": "CartForge Jenkins CI/CD Project",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "build": "bash scripts/build.sh",
+    "test": "node test/app.test.js"
+  }
+}
